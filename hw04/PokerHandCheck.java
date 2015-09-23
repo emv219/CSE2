@@ -2,6 +2,12 @@
 //CSE2
 /*this program will simulate a 5 card draw hand and 
 give a simplay analysis on the type of hand that you have */
+
+
+
+// i have everything working except my boolean assignments.  it will run and say that you have 2 or 3 pair when you get 2 or 3 of the exact same card 
+//(card and suit) but it will not recognize when two cards of the same suit are the same for some reason and i can't find the error.
+// i will re-submit this assignment again tommorrow if i can, sorry and thanks
 public class PokerHandCheck{
     public static void main(String[]args){
         
@@ -310,16 +316,18 @@ boolean cardbool11 = (11==24&11==37&11==50&24==37&24==50&37==50);
 boolean cardbool12 = (12==25&12==38&12==51&25==38&25==51&38==51);
 boolean cardbool13 = (13==26&13==39&13==52&26==39&26==52&39==52);
 
-boolean cardNumBool1 = (cardNumber1);
 
-
-if ((cardNumber1 = cardNumber2) || (cardNumber1 = cardNumber3) || (cardNumber1 = cardNumber4) ||(cardNumber1 = cardNumber5) ||
-(cardNumber2 = cardNumber3) || (cardNumber2 = cardNumber4) || (cardNumber2 = cardNumber5) || (cardNumber3 = cardNumber4) ||
-(cardNumber4 = cardNumber5)){
+if ((cardNumber1 == cardNumber2) || (cardNumber1 == cardNumber3) || (cardNumber1 == cardNumber4) ||(cardNumber1 == cardNumber5) ||
+(cardNumber2 == cardNumber3) || (cardNumber2 == cardNumber4) || (cardNumber2 == cardNumber5) || (cardNumber3 == cardNumber4) ||
+(cardNumber4 == cardNumber5)){
 System.out.println("You have two pair");
 }
-else if ((cardNumber1 = cardNumber2 = cardNumber3) || (cardNumber1 = cardNumber2 = cardNumber4) || (cardNumber1 = cardNumber2 = cardNumber5) ||
-(cardNumber1 = cardNumber3 = cardNumber4) || (cardNumber1 = cardNumber3 = cardNumber5) || (cardNumber1 = cardNumber1 = cardNumber4 = cardNumber5)){
+else if ((cardNumber1 == cardNumber2&cardNumber1 == cardNumber3&cardNumber2==cardNumber3) ||
+(cardNumber1 == cardNumber2&cardNumber1 == cardNumber4&cardNumber2==cardNumber4) || 
+(cardNumber1 == cardNumber2&cardNumber1 == cardNumber5&cardNumber2==cardNumber5) ||
+(cardNumber1 == cardNumber3&cardNumber1 == cardNumber4&cardNumber3==cardNumber4) ||
+(cardNumber1 == cardNumber3&cardNumber1 == cardNumber5&cardNumber3==cardNumber5) || 
+(cardNumber1 == cardNumber4&cardNumber1 == cardNumber5&cardNumber4==cardNumber5)){
 System.out.println("You have three pair");
 }
 else{
