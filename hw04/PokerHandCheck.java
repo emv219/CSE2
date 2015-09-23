@@ -3,11 +3,6 @@
 /*this program will simulate a 5 card draw hand and 
 give a simplay analysis on the type of hand that you have */
 
-
-
-// i have everything working except my boolean assignments.  it will run and say that you have 2 or 3 pair when you get 2 or 3 of the exact same card 
-//(card and suit) but it will not recognize when two cards of the same suit are the same for some reason and i can't find the error.
-// i will re-submit this assignment again tommorrow if i can, sorry and thanks
 public class PokerHandCheck{
     public static void main(String[]args){
         
