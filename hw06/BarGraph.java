@@ -60,25 +60,27 @@ for(int i=0; i<sunSpent; i++){
 System.out.print("*");
 }
 System.out.println();
+//initialize all variables to be used in the for loop
 double spendFlux = 0;
 int upDown = 0;
 double sum = 0.0;
 double spendFluxPercent = 0.0;
 double spendAvg = 0.0;
 double weekSpending = 0.0;
+//for loop to calculate the average money spent and spending over a year
 for(int i=1; i<52; i++){
     spendFlux = (int)(Math.random() * 20);
     upDown = (int)(Math.random() * 1);
     if(upDown > 0){
-        spendFlux = (-1)*(spendFlux);
+        spendFlux = (-1)*(spendFlux);  //positice or negative change of <=20%
     }
     spendFluxPercent = ((double)spendFlux/100);
     spendAvg = (monSpent + tuesSpent +wedSpent+thurSpent+friSpent+satSpent+sunSpent)/7;
     weekSpending = (spendAvg * spendFluxPercent) + spendAvg;
-    sum += weekSpending;
+    sum += weekSpending; //sum all the calculations for projected spending in a year
         }
-System.out.println("Your average weekly spending is " + spendAvg);
-System.out.println ("Your estimated spending over 4 years is " + sum*4);
+System.out.println("Your average weekly spending is " + spendAvg);  //print out average weekly spending
+System.out.println ("Your estimated spending over 4 years is " + sum*4); //pring out projected spending over 4 years
 
 }  //end of main method
 }  //end of class
