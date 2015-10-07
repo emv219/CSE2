@@ -326,7 +326,7 @@ boolean cardbool2s = cardNumber2==12||cardNumber2==25||cardNumber2==38||cardNumb
 boolean cardbool2d = cardNumber2==13||cardNumber2==26||cardNumber2==39||cardNumber2==52;
 
 boolean cardbool3a = cardNumber3==1||cardNumber3==14||cardNumber3==27||cardNumber3==40;
-boolean cardbool3w= cardNumber3==2||cardNumber3==15||cardNumber3==28||cardNumber3==41;
+boolean cardbool3w = cardNumber3==2||cardNumber3==15||cardNumber3==28||cardNumber3==41;
 boolean cardbool3e = cardNumber3==3||cardNumber3==16||cardNumber3==29||cardNumber3==42;
 boolean cardbool3r = cardNumber3==4||cardNumber3==17||cardNumber3==30||cardNumber3==43;
 boolean cardbool3t = cardNumber3==5||cardNumber3==18||cardNumber3==31||cardNumber3==44;
@@ -353,7 +353,7 @@ boolean cardbool4r = cardNumber4==11||cardNumber4==24||cardNumber4==37||cardNumb
 boolean cardbool4t = cardNumber4==12||cardNumber4==25||cardNumber4==38||cardNumber4==51;
 boolean cardbool4g = cardNumber4==13||cardNumber4==26||cardNumber4==39||cardNumber4==52;
 
-boolean cardbool5 = cardNumber5==1||cardNumber5==14||cardNumber5==27||cardNumber5==40;
+boolean cardbool5  = cardNumber5==1||cardNumber5==14||cardNumber5==27||cardNumber5==40;
 boolean cardbool5a = cardNumber5==2||cardNumber5==15||cardNumber5==28||cardNumber5==41;
 boolean cardbool5b = cardNumber5==3||cardNumber5==16||cardNumber5==29||cardNumber5==42;
 boolean cardbool5c = cardNumber5==4||cardNumber5==17||cardNumber5==30||cardNumber5==43;
@@ -363,7 +363,7 @@ boolean cardbool5f = cardNumber5==7||cardNumber5==20||cardNumber5==33||cardNumbe
 boolean cardbool5g = cardNumber5==8||cardNumber5==21||cardNumber5==34||cardNumber5==47;
 boolean cardbool5h = cardNumber5==9||cardNumber5==22||cardNumber5==35||cardNumber5==48;
 boolean cardbool5j = cardNumber5==10||cardNumber5==23||cardNumber5==36||cardNumber5==49;
-boolean cardbool5k= cardNumber5==11||cardNumber5==24||cardNumber5==37||cardNumber5==50;
+boolean cardbool5k = cardNumber5==11||cardNumber5==24||cardNumber5==37||cardNumber5==50;
 boolean cardbool5l = cardNumber5==12||cardNumber5==25||cardNumber5==38||cardNumber5==51;
 boolean cardbool5z = cardNumber5==13||cardNumber5==26||cardNumber5==39||cardNumber5==52;
 
