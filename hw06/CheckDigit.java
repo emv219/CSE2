@@ -6,6 +6,7 @@ public class CheckDigit{
 public static void main (String[]args){  //method for all java programs
     
     Scanner myScanner = new Scanner(System.in);  //define scanner for user input
+    //prompt user for ID number
     System.out.println("enter the first digit of the ID number");
     int digit1 = myScanner.nextInt();
      System.out.println("enter the second digit of the ID number");
@@ -27,7 +28,7 @@ public static void main (String[]args){  //method for all java programs
      System.out.println("enter the tenth digit of the ID number");
     int digit10 = myScanner.nextInt();
     
-    
+    //ISBN conversion and check
    for(int i=10; i>0; i--){
         if(9<i&&i<11){
              digit1 = digit1*10;
@@ -57,10 +58,9 @@ public static void main (String[]args){  //method for all java programs
              digit9 = digit9*2;
         }
    }
-  
+  //check the value of the program vs the entered value
   int isbnSum = digit1 + digit2 +digit3 +digit4 + digit5 +digit6 +digit7 + digit8 +digit9+ digit10;
   double isbnCheck = isbnSum%11;
-  char X = 10;
   boolean aww = isbnCheck != digit10;
   if (aww = false){
       System.out.println("This bardcode is valid!");
@@ -71,5 +71,5 @@ public static void main (String[]args){  //method for all java programs
    else{
       System.out.println("the correct ISBN number is X");
 }
-}
-}
+}   //end of main method
+}   //end of class
