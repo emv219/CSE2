@@ -14,18 +14,15 @@ public class HelloWorld{
         
 //print the statement with a box around it
 
-System.out.println(20+30+"30"-10);
-    }
-}
-    
-   /* System.out.println("#########################");
-    System.out.println("#########################");   
+   System.out.println("   " -  " ");
+  /*  System.out.println("#########################");   
     System.out.println("#                       #");  
     System.out.println("#   Hello World 2015!!  #");
     System.out.println("#                       #");
     System.out.println("#########################");
     System.out.println("#########################");
-    System.out.println("test");
+    System.out.println("test");*/
     
-    //test/testtest */
-    
+    //test/testtest 
+    }
+}
